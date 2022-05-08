@@ -1,0 +1,2 @@
+#deploy library to mvn central
+mvn clean deploy -P release

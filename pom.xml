@@ -8,7 +8,7 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.test-library</groupId>
+    <groupId>io.github.alexnsaba</groupId>
     <artifactId>test-library</artifactId>
     <version>0.0.1</version>
     <name>test-library</name>
