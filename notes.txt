@@ -1,2 +1,29 @@
-#deploy library to mvn central
-mvn clean deploy -P release
+ ## update group id to github if you don't own a domain
+ <groupId>io.github.alexnsaba</groupId>
+
+ ## add project url
+ <url>https://github.com/alexnsaba/test-library</url>
+
+ ## add licenses
+
+ ## add developer details
+
+ ## add source code management (scm)
+
+ ## add java doc and Source code
+
+ ## add distribution management
+
+ ## add nexus-staging-maven-plugin
+
+ ## deploy library to mvn central
+ mvn clean deploy -P release
+
+ ##configure nexus staging server in local mvn settings.xml
+ <servers>
+    <server>
+        <id>ossrh</id>
+        <username>{YOUR_JIRA_USERNAME}</username>
+        <password>{YOUR_JIRA_PASSWORD}</password>
+    </server>
+ </servers>
